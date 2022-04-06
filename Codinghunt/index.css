@@ -1,0 +1,90 @@
+*{margin: 0; box-sizing: border-box;}
+a{text-decoration: none;}
+img{vertical-align: bottom;}
+button{cursor: pointer;}
+
+
+
+@font-face{
+    font-family: ub;
+    src: url(./fonts/Ubuntu-Bold.ttf);
+}
+@font-face{
+    font-family: ui;
+    src: url(./fonts/Ubuntu-LightItalic.ttf);
+}
+@font-face{
+    font-family: ul;
+    src: url(./fonts/Ubuntu-Light.ttf);
+}
+@font-face {
+    font-family: ur;
+    src: url(./fonts/Ubuntu-Regular.ttf);
+}
+ 
+h3{font-family: ub;}
+p{ color: rgb(160, 160, 160); font-family: ur; font-size: 1.2rem;}
+
+/* NAVBAR */
+.navbar{
+    font-family: ub;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255 255 255) !important;
+    font-weight: 400;
+}
+.navbar-collapse ul li{
+    margin-right: 10%;
+}
+
+
+/* hero-text */
+#hero-text {width: 100%; height: 100vh; background-image: url(./icons/Animated\ Shape\ \(1\).svg); display: flex; align-items: center;
+background-repeat: no-repeat; background-size: cover; background-position: center;}
+.hero-col h2{font-family: ui; font-size: 2.5rem; margin-bottom: 2%;}
+.hero-col p{margin-bottom: 5%;}
+.hero-col a{padding: 15px 20px; background-color: rgb(90, 192, 240); color: #fff; font-family: ub; }
+
+/* work */
+#work{padding-top: 8%;}
+.work-col h3{ margin-bottom: 5%;}
+
+/* do */
+#do{padding-top: 5%; margin-bottom: 10%;}
+.do-col img{margin-bottom: 5%;}
+.do-col h3{font-size: 2rem; margin-bottom: 5%;}
+
+/* tech */
+#tech{width: 100%;  background-image: url(./icons/Sprinkle.svg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;}
+.tech-col h3{padding-top: 8%; margin-bottom: 5%;}
+.drone img{width: 20%;}
+.dom{margin-bottom: 5%;}
+.item{transition: .4s; cursor: pointer;}
+.item:hover{transform:translate(0,-5%)}
+.dom a{padding: 15px 20px;
+background-color: rgb(0, 129, 189);
+color: #fff;
+font-family: ub; display: inline-block;}
+
+/* story */
+#story{padding-top: 8%;}
+.story-col h3{margin-bottom: 5%; font-family: ul;}
+.com-col{text-align: left;}
+.free{padding-top: 5%; margin-bottom: 5%;}
+.free h3{font-size: 30px;}
+.free a{background-color: rgb(90, 192, 240); color: #fff; font-family: ub;}
+
+/* footer */
+#footer{margin-top: 5%; background-image: url(./icons/Rect\ Light.svg); background-position: center;
+background-size: cover; }
+.dot-link{margin-bottom: 5%; }
+.dot-link .bi{font-size: 30px; padding: 15px; cursor: pointer;}
+.footer-col h3{margin-bottom: 5%;}
+.footer-col a{background-color: rgb(90, 192, 240);
+color: #fff;
+font-family: ub; display: inline-block;}
+.footer-col input{margin-bottom: 5%; font-family: ub;}
+.bot-link a{color: #fff; font-family: ur; padding: 5px; display: block; text-align: center;}
